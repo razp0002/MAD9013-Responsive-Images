@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+
+/* ----------- Grid --------- */
+
+
+/* -------------------------- */
+
+.col-container {
+    margin: 3rem 0;
+}
+
+li {
+    list-style: none;
+    float: left;
+    width: 100%;
+}
+
+picture,
+img {
+    max-width: 100%;
+}
+
+@media all and (min-width: 600px) and (max-width: 1024px) {
+    li {
+        width: 50%;
+    }
+    img {
+        padding: 5px;
+    }
+}
+
+@media all and (min-width: 1024px) {
+    li {
+        width: 33.3%;
+    }
+    img {
+        padding: 5px;
+    }
+}
